@@ -1,0 +1,121 @@
+@charset "utf-8";
+body,html {
+    /*background-color: #fff;*/
+}
+/*上面的导航*/
+.main-banner {
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 0;
+    padding: 0 20px;
+}
+.main-banner li {
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: "PingFang SC", "微软雅黑";
+    padding: 10px 0;
+    width: 33.333%;
+}
+
+.main-banner li .search{
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    float: right;
+    margin-top: 3px;
+    background: url(../images/sprites.png) -183px -29px / 200px 200px
+}
+
+.main-banner li a {
+    display: block;
+    color: #35424B;
+    position: relative;
+}
+
+.border-right{
+    border-right: 1px solid #e1e1e1;
+}
+
+.main-banner li.show {
+    border-bottom: 2px solid #44b181;
+}
+
+.main-banner li.show a {
+    color: #44b181;
+}
+
+.main-banner li a i {
+    color: #44b181;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+/*内容区域*/
+main {
+    background-color: #ebebeb;
+}
+
+main ul> li {
+    padding: 10px 20px;
+    background-color: #fff;
+    margin-bottom: 8px;
+}
+
+main ul> li .color999 {
+    color: #999;
+    font-size: 17px;
+    line-height: 22px;
+}
+main ul> li .color333 {
+    color: #333;
+    font-size: 20px;
+}
+
+main .user-img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 15px 15px 0 0 ;
+    border-radius: 50px;
+    background-image: url(../images/Luser-img.png);
+    background-size: 50px 50px;
+}
+
+main .cont {
+    overflow: hidden;
+}
+
+main .listenInButton {
+    display: block;
+    width: 75px;
+    height: 30px;
+    border: 2px solid #44b181;
+    color: #44b181;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+main .listenInButton .icon-LB {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-position: -19px -102px;
+    margin-right: 3px;
+}
+main .icon-LT {
+    background-position:  -187px 0 ;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+}
+main .icon-RT {
+    background-position:  0 -50px ;
+    width: 17px;
+    height: 14px;
+    display: inline-block;
+    margin: 0 5px 0 8px;
+}
